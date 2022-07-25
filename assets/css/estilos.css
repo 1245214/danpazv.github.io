@@ -6,6 +6,13 @@
 
 /*Que cargue una fuente de manera local*/
 
+a{
+  color: rgb(74, 73, 73);
+  background-color:transparent;
+  text-decoration: none;
+  }
+  
+/*El texto mantiene el formato anterior
 
 @font-face{/*Roboto Medium*/
     font-family: lato-light; /*un alias al nombre de la fuente*/
