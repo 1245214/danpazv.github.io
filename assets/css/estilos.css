@@ -1,30 +1,35 @@
-
-#navbarSupportedContent ul li a:hover{
+#navbarSupportedContent ul li a:hover {
     color: #ffc107;
     text-decoration: none;
 }
 
 /*Que cargue una fuente de manera local*/
 
-a{
-  color: rgb(74, 73, 73);
-  background-color:transparent;
-  text-decoration: none;
-  }
-  
-/*El texto mantiene el formato anterior
-
-@font-face{/*Roboto Medium*/
-    font-family: lato-light; /*un alias al nombre de la fuente*/
-    src:url(/assets/fonts/lato/Lato-Light.ttf)/*Ubicación de la Fuente*/
+a {
+    color: rgb(74, 73, 73);
+    background-color: transparent;
+    text-decoration: none;
 }
 
-@font-face{/*Roboto Medium*/
-    font-family: lato-bold; /*un alias al nombre de la fuente*/
-    src:url(/assets/fonts/lato/Lato-Bold.ttf)/*Ubicación de la Fuente*/
+/*El texto mantiene el formato anterior*/
+
+@font-face {
+    /*Roboto Medium*/
+    font-family: lato-light;
+    /*un alias al nombre de la fuente*/
+    src: url(/assets/fonts/lato/Lato-Light.ttf)
+        /*Ubicación de la Fuente*/
 }
 
-.miNavbar{
+@font-face {
+    /*Roboto Medium*/
+    font-family: lato-bold;
+    /*un alias al nombre de la fuente*/
+    src: url(/assets/fonts/lato/Lato-Bold.ttf)
+        /*Ubicación de la Fuente*/
+}
+
+.miNavbar {
     text-decoration: none;
     color: #ffffff;
 }
@@ -38,7 +43,7 @@ a{
     background-position: center;
 }
 
-.miPersonal:hover{
+.miPersonal:hover {
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
     transition-property: background-color;
@@ -47,64 +52,70 @@ a{
     -webkit-transition-duration: 0.4s;
 }
 
-.textoPrincipal{
+.textoPrincipal {
     font-family: lato-light;
 }
 
-.formato{
+.formato {
     font-size: 25px;
 }
 
-.miTexto{
-    color:yellow;
+.miTexto {
+    color: yellow;
     font-family: lato-bold;
 }
 
-.contieneCards{
-    background-color: #B8F1B0;
+.contieneCards {
+    background-color: #349beb;
 }
 
-.caja{
- height: 80px;
-
+.caja {
+    height: 80px;
 }
 
-.caja h1{
-    color: #E45826;
+.caja h1 {
+    color: white;
     font-family: lato-bold;
+    text-shadow: 4px 4px 4px red;
 }
 
-.textJust{
-   text-align: justify;
+.textJust {
+    text-align: justify;
 }
 
-.cajaTituloCard{
+.cajaTituloCard {
     background-color: #395B64;
 }
 
-.contenidoCard{
+.contenidoCard {
     background-color: #EEEEEE;
 }
 
-.footerCard{
+.footerCard {
     background-color: #A5C9CA;
 }
 
-.subLista ul{
+.subLista ul {
     list-style: none;
 }
-.subLista ul li::before{ content:"-"; position:absolute; margin-left: -1.1em;}
 
-.card:hover{
+.subLista ul li::before {
+    content: "-";
+    position: absolute;
+    margin-left: -1.1em;
+}
+
+.card:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
-.carousel-inner img{
+.carousel-inner img {
     object-fit: scale-down;
     height: 50vh;
     width: 100%;
 }
+
 .carousel-indicators [data-bs-target] {
     position: relative;
     width: 60px;
@@ -113,12 +124,10 @@ a{
     border-radius: 24px;
 }
 
-.carousel-caption span{
+.carousel-caption span {
     color: #E45826;
 }
 
-.linkeo{
+.linkeo {
     text-decoration: none;
 }
-
-
